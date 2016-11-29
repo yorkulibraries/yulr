@@ -1,0 +1,22 @@
+* yulr
+
+** Overview
+
+=yulr= is a set of small helper functions for R work at York University Libraries: little things to save time that were getting repeated in code in various places, which are better managed in a proper library
+
+** Installation
+
+Install from GitHub with =devtools=.
+
+#+BEGIN_SRC R :eval no
+# install.packages("devtools")
+devtools::install("yorkulibraries/yulr")
+#+END_SRC
+
+** TO DO
+
+A vignette.
+
+** Bugs
+
+Probably.
