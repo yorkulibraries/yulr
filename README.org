@@ -13,6 +13,19 @@ Install from GitHub with =devtools=.
 devtools::install("yorkulibraries/yulr")
 #+END_SRC
 
+If you get an error like this:
+
+#+BEGIN_EXAMPLE
+Error in system(full, intern = quiet, ignore.stderr = quiet, ...) :
+error in running command
+#+END_EXAMPLE
+
+then this will probably fix it:
+
+#+BEGIN_SRC R :eval no
+options(unzip = "internal")
+#+END_SRC
+
 ** TO DO
 
 A vignette.
