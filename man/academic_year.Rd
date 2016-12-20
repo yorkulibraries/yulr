@@ -4,13 +4,13 @@
 \alias{academic_year}
 \title{Academic Year}
 \usage{
-academic_year(y)
+academic_year(date_string)
 }
 \arguments{
-\item{date}{A date}
+\item{date}{A date.}
 }
 \value{
-A year (integer)
+An integer.
 }
 \description{
 Determine the academic year for a given date
