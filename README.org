@@ -12,7 +12,7 @@ Install from GitHub with =devtools=.
 
 #+BEGIN_SRC R :eval no
 # install.packages("devtools")
-devtools::install("yorkulibraries/yulr")
+devtools::install_github("yorkulibraries/yulr")
 #+END_SRC
 
 If you get an error like this:
