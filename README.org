@@ -32,9 +32,26 @@ options(unzip = "internal")
 
 *** academic_year()
 
+#+BEGIN_EXAMPLE
+R> academic_year("2016-08-31")
+[1] 2015
+R> academic_year("2016-09-01")
+[1] 2016
+#+END_EXAMPLE
+
 *** readable_marc245()
 
+#+BEGIN_EXAMPLE
+R> readable_marc245("$a The order of things : $b an archaeology of the human sciences / $c Michel Foucault")
+[1] "The order of things : an archaeology of the human sciences / Michel Foucault"
+#+END_EXAMPLE
+
 *** link_to_vufind()
+
+#+BEGIN_EXAMPLE
+R> link_to_vufind("a3400583", "R Packages")
+[1] "<a href=\"https://www.library.yorku.ca/find/Record/3400583\">R Packages</a>"
+#+END_EXAMPLE
 
 ** TO DO
 
