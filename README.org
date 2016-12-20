@@ -39,11 +39,11 @@ R> academic_year("2016-09-01")
 [1] 2016
 #+END_EXAMPLE
 
-*** readable_marc245()
+*** link_to_sp_books()
 
 #+BEGIN_EXAMPLE
-R> readable_marc245("$a The order of things : $b an archaeology of the human sciences / $c Michel Foucault")
-[1] "The order of things : an archaeology of the human sciences / Michel Foucault"
+R> link_to_sp_books("557306", "Marcus Aurelius: A Biography")
+[1] "<a href=\"https://books.scholarsportal.info/viewdoc.html?id=557306\">Marcus Aurelius: A Biography</a>"
 #+END_EXAMPLE
 
 *** link_to_vufind()
@@ -51,6 +51,13 @@ R> readable_marc245("$a The order of things : $b an archaeology of the human sci
 #+BEGIN_EXAMPLE
 R> link_to_vufind("a3400583", "R Packages")
 [1] "<a href=\"https://www.library.yorku.ca/find/Record/3400583\">R Packages</a>"
+#+END_EXAMPLE
+
+*** readable_marc245()
+
+#+BEGIN_EXAMPLE
+R> readable_marc245("$a The order of things : $b an archaeology of the human sciences / $c Michel Foucault")
+[1] "The order of things : an archaeology of the human sciences / Michel Foucault"
 #+END_EXAMPLE
 
 ** TO DO
