@@ -20,4 +20,3 @@ Given an ID number and some text, make a link to Scholars Portal Books.
 \examples{
 link_to_sp_books("557306", "Marcus Aurelius: A Biography")
 }
-

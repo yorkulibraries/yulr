@@ -18,4 +18,3 @@ Determine the academic year for a given date
 \examples{
 academic_year("2016-10-31")
 }
-

@@ -7,6 +7,8 @@
 readable_marc245(raw_245, include.author = TRUE)
 }
 \arguments{
+\item{include.author}{Include the $c subfield; default is TRUE}
+
 \item{title}{A MARC 245 title string (with subfields $a $b $c)}
 }
 \value{
@@ -18,4 +20,3 @@ Convert raw MARC field into something human-readable
 \examples{
 readable_marc245("$a R packages / $c Hadley Wickham.")
 }
-

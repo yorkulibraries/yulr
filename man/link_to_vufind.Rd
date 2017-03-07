@@ -20,4 +20,3 @@ Given a control number and some text, make a link to VuFind.
 \examples{
 link_to_vufind("a3400583", "R Packages")
 }
-
