@@ -12,3 +12,7 @@ test_that("Special days are correct", {
 test_that("Academic year as year is a date", {
     expect_equal(academic_year_as_year("2016-02-29"), as.Date("2015-01-01"))
 })
+
+test_that("Academic years start on 01 September", {
+    expect_equal(start_of_academic_year(2018), as.Date("2018-09-01"))
+})
